@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableViewCell" rowHeight="75" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="MyGoogleDriveProject">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5H-3u-rAM">
+                        <rect key="frame" x="16" y="27" width="103" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZ4-hW-dkG">
+                        <rect key="frame" x="139" y="27" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJV-nI-z5T">
+                        <rect key="frame" x="234.5" y="27" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="indianrupeesign.square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="en1-tv-wYh">
+                        <rect key="frame" x="279.5" y="28.5" width="19.5" height="17.5"/>
+                        <color key="tintColor" red="0.020097659900784492" green="0.020091889426112175" blue="0.020631521940231323" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="w5H-3u-rAM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="5hq-kH-Z8U"/>
+                    <constraint firstItem="EZ4-hW-dkG" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="70I-Py-P8z"/>
+                    <constraint firstItem="EZ4-hW-dkG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="EnA-sK-kdD"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="en1-tv-wYh" secondAttribute="trailing" constant="7" id="Ez8-Yo-wKF"/>
+                    <constraint firstItem="hJV-nI-z5T" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="N0w-YZ-bKW"/>
+                    <constraint firstItem="en1-tv-wYh" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Uck-Y6-fqN"/>
+                    <constraint firstItem="w5H-3u-rAM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Xh6-Ra-LH2"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="en1-tv-wYh" secondAttribute="trailing" constant="5" id="dTN-v0-Dei"/>
+                    <constraint firstItem="hJV-nI-z5T" firstAttribute="centerY" secondItem="en1-tv-wYh" secondAttribute="centerY" id="m9G-BA-9IU"/>
+                    <constraint firstItem="en1-tv-wYh" firstAttribute="leading" secondItem="hJV-nI-z5T" secondAttribute="trailing" constant="3" id="pHy-4X-y5V"/>
+                    <constraint firstItem="w5H-3u-rAM" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="vTB-TQ-FHq"/>
+                    <constraint firstItem="EZ4-hW-dkG" firstAttribute="leading" secondItem="w5H-3u-rAM" secondAttribute="trailing" constant="20" id="xVQ-EL-45N"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="costLabel" destination="hJV-nI-z5T" id="nXh-TP-LlC"/>
+                <outlet property="dateLabel" destination="w5H-3u-rAM" id="An3-RK-LHv"/>
+                <outlet property="typeLabel" destination="EZ4-hW-dkG" id="6ee-0A-7Jx"/>
+            </connections>
+            <point key="canvasLocation" x="160.86956521739131" y="138.95089285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="indianrupeesign.square" catalog="system" width="64" height="56"/>
+    </resources>
+</document>
